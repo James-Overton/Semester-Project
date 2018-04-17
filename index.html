@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>A Gallery of my Favorite Projects</title>
+		<script type="text/javascript" src="processing.js"></script>
+		<link rel="stylesheet" type="text/css" href="style.css"/>
+		<!-- <style>
+			pre {
+    			background-color: #EEE;
+    			adding: 15px;
+			}
+			#theCanvas {
+    			width:100px;
+    			margin: auto;
+    			border: 5px solid black;
+    			display: block;
+			}
+			#daCanvas{
+    			width:500px;
+    			margin:auto;
+    			border:5px solid black;
+    			display:block;
+			}
+			p {
+    			font-family: sans-serif;
+			}
+		</style> -->
+	</head>
+	<body>
+		<p>What if I told you, you can creat what I like to call an "autonomous image" in HTML. My first example will be static.</p>
+		<canvas id="theCanvas" data-processing-sources="static.pde" tabindex="0" width="500" height="500" style="-webkit-tap-highlight-color:rgba(0,0,0,0)" onclick="void(0)"></canvas>
+		<p style="font-family: sans-serif;">This isn't a gif. It's completely improvised. This is done by having a Processing library in JavaScript (since HTML can only use JavaScript for scripts) and using Processing to generate what I want. In this case, I'm setting pixels in an grid to random colors each time. <a href="second.html">Click here for the next part of the project.</a></p>
+	</body>
+</html>

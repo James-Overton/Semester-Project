@@ -1,0 +1,19 @@
+pre {
+    background-color: #EEE;
+    adding: 15px;
+}
+#theCanvas {
+    width:100px;
+    margin: auto;
+    border: 5px solid black;
+    display: block;
+}
+#daCanvas{
+    width:500px;
+    margin:auto;
+    border:5px solid black;
+    display:block;
+}
+p {
+    font-family: sans-serif;
+}
